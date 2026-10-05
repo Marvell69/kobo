@@ -1,0 +1,22 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/crypto",
+    "crates/wallet-core",
+    "crates/store",
+    "crates/webhooks",
+    "crates/ingest",
+    "crates/policy",
+    "crates/audit",
+    "crates/api",
+    "bin/server",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/your-org/kobo"
+
+[profile.release]
+panic = "abort"
