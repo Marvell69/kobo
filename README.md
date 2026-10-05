@@ -1,7 +1,7 @@
 # Kobo
 
 Stellar-native master-wallet infrastructure — Wallet-as-a-Service for
-stablecoins, evolved from the `octo` design with a policy engine, an
+stablecoins, evolved from the design with a policy engine, an
 audit trail, and multi-asset deposits.
 
 CI: none yet (see CONTRIBUTING.md) · License: MIT
@@ -27,7 +27,7 @@ For senders that don't yet accept `M...` (e.g. some exchanges), Kobo also
 exposes the equivalent `G...` + numeric-memo form, and attributes deposits by
 muxed id or memo id. See `docs/deposit-model.md`.
 
-## What's new vs. octo
+## What's new
 
 See `docs/features-roadmap.md` for the full table. In short: a **policy
 engine** (`kobo-policy`) enforcing per-customer rolling-window spend limits,
