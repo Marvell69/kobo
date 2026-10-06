@@ -121,7 +121,7 @@ security reports.
 
 ## Status
 
-Early development — scaffolded from octo's design, extended with a policy
+Early development — extended with a policy
 engine and an audit trail. See `docs/features-roadmap.md` for what's built
 vs. planned.
 
