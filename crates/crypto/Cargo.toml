@@ -1,0 +1,11 @@
+[package]
+name = "kobo-crypto"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+aes-gcm = "0.10"
+rand = "0.8"
+thiserror = "1"
+zeroize = "=1.6.0"
