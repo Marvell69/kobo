@@ -1,0 +1,19 @@
+[package]
+name = "kobo-server"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "kobo-server"
+path = "src/main.rs"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+
+kobo-api = { path = "../../crates/api" }
+kobo-audit = { path = "../../crates/audit" }
+kobo-policy = { path = "../../crates/policy" }
+kobo-store = { path = "../../crates/store" }
